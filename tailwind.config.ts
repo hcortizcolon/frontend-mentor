@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "blog-preview-card-yellow": 'hsl(47, 88%, 63%)',
+        "blog-preview-card-gray": {
+          500: 'hsl(0, 0%, 42%)',
+          950: 'hsl(0, 0%, 7%)',
+        }
       },
     },
   },
