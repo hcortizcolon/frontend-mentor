@@ -15,6 +15,13 @@ export default {
         "blog-preview-card-gray": {
           500: 'hsl(0, 0%, 42%)',
           950: 'hsl(0, 0%, 7%)',
+        },
+        "social-links-profile-green": 'hsl(75, 94%, 57%)',
+        "social-links-profile-white": 'hsl(0, 0%, 100%)',
+        "social-links-profile-grey": {
+          700: 'hsl(0, 0%, 20%)',
+          800: 'hsl(0, 0%, 12%)',
+          900: 'hsl(0, 0%, 8%)',
         }
       },
     },

@@ -23,7 +23,7 @@ export default function Home() {
               </p>
               <Link
                 href="#"
-                className="text-blog-preview-card-yellow text-lg font-extrabold mt-2"
+                className="hover:text-blog-preview-card-yellow text-blog-preview-card-gray-950 text-lg font-extrabold mt-2"
               >
                 HTML & CSS Foundations
               </Link>
