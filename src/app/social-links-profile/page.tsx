@@ -1,6 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { ReactNode } from "react";
+
+function SocialLink({ children }: { children: ReactNode }) {
+  return (
+    <Link
+      href="#"
+      className="w-full flex justify-center items-center bg-social-links-profile-grey-700 text-social-links-profile-white font-semibold py-2 rounded-md hover:bg-social-links-profile-green hover:text-social-links-profile-grey-800"
+    >
+      {children}
+    </Link>
+  );
+}
+
 export default function Home() {
   return (
     <div className="w-screen h-screen bg-social-links-profile-grey-900 flex justify-center items-center">
@@ -22,36 +35,11 @@ export default function Home() {
           </p>
         </div>
         <div className="flex flex-col items-center gap-3 mb-8 px-8">
-          <Link
-            href="#"
-            className="w-full flex justify-center items-center bg-social-links-profile-grey-700 text-social-links-profile-white font-semibold py-2 rounded-md hover:bg-social-links-profile-green hover:text-social-links-profile-grey-800"
-          >
-            GitHub
-          </Link>
-          <Link
-            href="#"
-            className="w-full flex justify-center items-center bg-social-links-profile-grey-700 text-social-links-profile-white font-semibold py-2 rounded-md hover:bg-social-links-profile-green hover:text-social-links-profile-grey-800"
-          >
-            Frontend Mentor
-          </Link>
-          <Link
-            href="#"
-            className="w-full flex justify-center items-center bg-social-links-profile-grey-700 text-social-links-profile-white font-semibold py-2 rounded-md hover:bg-social-links-profile-green hover:text-social-links-profile-grey-800"
-          >
-            LinkedIn
-          </Link>
-          <Link
-            href="#"
-            className="w-full flex justify-center items-center bg-social-links-profile-grey-700 text-social-links-profile-white font-semibold py-2 rounded-md hover:bg-social-links-profile-green hover:text-social-links-profile-grey-800"
-          >
-            Twitter
-          </Link>
-          <Link
-            href="#"
-            className="w-full flex justify-center items-center bg-social-links-profile-grey-700 text-social-links-profile-white font-semibold py-2 rounded-md hover:bg-social-links-profile-green hover:text-social-links-profile-grey-800"
-          >
-            Instagram
-          </Link>
+          <SocialLink>GitHub</SocialLink>
+          <SocialLink>Frontend Mentor</SocialLink>
+          <SocialLink>LinkedIn</SocialLink>
+          <SocialLink>Twitter</SocialLink>
+          <SocialLink>Instagram</SocialLink>
         </div>
       </div>
     </div>
