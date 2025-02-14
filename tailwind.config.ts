@@ -11,6 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "qr-code": {
+          slate: {
+            300: "hsl(212, 45%, 89%)",
+            500: "hsl(216, 15%, 48%)",
+            900: "hsl(218, 44%, 22%)",
+          }
+        },
         "blog-preview-card": {
           "yellow": 'hsl(47, 88%, 63%)',
           "gray": {
