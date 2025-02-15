@@ -58,6 +58,17 @@ export default {
           grey: "hsl(228, 12%, 48%)",
           cream: "hsl(30, 38%, 92%)",
           white: "hsl(0, 0%, 100%)",
+        },
+        "four-card-feature-section": {
+          red: "hsl(0, 78%, 62%)",
+          cyan: "hsl(180, 62%, 55%)",
+          orange: "hsl(34, 97%, 64%)",
+          blue: "hsl(212, 86%, 64%)",
+          grey: {
+             500: "hsl(234, 12%, 34%)",
+             400: "hsl(212, 6%, 44%)",
+          },
+          white: "hsl(0, 0%, 100%)"
         }
       },
     },
