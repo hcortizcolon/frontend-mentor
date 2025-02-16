@@ -29,7 +29,7 @@ export default function Home() {
                       <Image
                         src="/testimonials-grid-section/image-daniel.jpg"
                         alt="Daniel Clifford"
-                        className="rounded-full"
+                        className="rounded-full border-2 border-testimonial-grid-section-purple-300"
                         width={50}
                         height={50}
                       />
@@ -130,7 +130,7 @@ export default function Home() {
                       <Image
                         src="/testimonials-grid-section/image-patrick.jpg"
                         alt="Daniel Clifford"
-                        className="rounded-full"
+                        className="rounded-full border-2 border-testimonial-grid-section-purple-300"
                         width={50}
                         height={50}
                       />
