@@ -85,6 +85,12 @@ export default {
           },
           darkBlue: "hsl(219, 29%, 14%)",
           black: "hsl(0, 0%, 7%)",
+        },
+        "article-preview-component": {
+          veryDarkGrayishBlue: "hsl(217, 19%, 35%)",
+          desaturatedDarkBlue: "hsl(214, 17%, 51%)",
+          grayishBlue: "hsl(212, 23%, 69%)",
+          lightGrayishBlue: "hsl(210, 46%, 95%)",
         }
       },
     },
